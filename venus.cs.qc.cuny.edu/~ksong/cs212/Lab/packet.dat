@@ -1,0 +1,13 @@
+1	When a communications site transmits a message through a pac
+2	ket-switching network, it does not send the message as a con
+4	 pieces, called packets. These packets are sent through the n
+3	tinuous stream of data. Instead, it divides the message into
+6	 Packets may be transmitted to the receiving site along diff
+5	etwork to a receiving site, which reassembles the message.
+7	erent paths. As a result, they are likely to arrive out of s
+9	essage correctly, each packet must include the relative pos
+8	equence. In order for the receiving site to reassemble the m
+10	ition of the packet within the message.
+13	 in ascending order based on their position numbers.
+12	 can correctly reassemble the message by placing the packets 
+11	 No matter what order these packets arrive, a receiving site 

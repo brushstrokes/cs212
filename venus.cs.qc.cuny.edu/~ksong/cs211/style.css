@@ -1,0 +1,217 @@
+body {
+    background-image: url("gplaypattern.png");
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 90%;
+}
+
+a {
+  color: #907080;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+a:hover {
+  color: #f87984;
+}
+
+
+ul, ol {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+}
+
+li, p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Navigation */
+
+.nav {
+  padding: 10px 10px;
+  text-align: right;
+  margin-top: 10px;
+  //border-top: 1px solid #D3C9CE;
+  border-bottom: 1px solid #D3C9CE;
+}
+
+.nav a {
+  font-size: 13px;
+  color: #47040a;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 0px 0px 8px 0px;
+}
+
+.nav a:hover {
+  color: #f87984;
+  border-bottom: 1px solid #f87984;;
+
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 50;
+  margin: 15px 20px;
+
+}
+
+.nav ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Inner content */
+
+.container, .tutorial, .glossary {
+    padding: 50px 0px 0px 0px;
+	margin: auto;
+    width: 90%;
+}
+
+.tutorial img {
+  max-width: 50%;
+}
+
+.tutorial #Blackboard img {
+  max-width: 75%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 100;
+  color: #47040a;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h3 {
+    margin: 10px 0;
+  padding: 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8B6969;
+}
+
+.info h3 {
+    margin: 0;
+}
+
+.info p {
+    padding: 0;
+    margin: 0;
+    color: darkslategray;
+}
+
+/* Table */
+
+table {
+  margin: auto;
+  overflow-y: scroll; 
+  position: static;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C0C0C0;
+  margin-bottom: 30px;
+}
+
+th {
+  background-color: #905666;
+  color: white;
+}
+
+tbody tr td {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #e6e6e6;
+}
+
+tbody tr td:nth-child(1) {
+  text-align: center;
+}
+
+.schedule tbody tr {
+    font-size: 14px;
+}
+
+.schedule tbody tr ul, ol {
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.tutorial tbody tr td:nth-child(1) {
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+#UNIX tbody tr td:nth-child(1) {
+  text-align: left;
+}
+
+/* Main page table */
+
+.info table {
+    margin: auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px 0px;
+    border-color:#ddd;
+}
+
+.info tbody tr td {
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.info th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+.info tbody td:first-child {
+    width: 45%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.info tbody td:last-child {
+    width: 55%;
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+}
+
+.tutorial h3 {
+  font-size: 26px;
+  margin: 60px 0 0 0;
+  color: #47040a;
+}
+
+#venus table p {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  border-style: solid;
+  border-width: 1px ;
+  display: inline-block;
+  padding: 20px 10px;
+  border-color: #47040a;
+}
+

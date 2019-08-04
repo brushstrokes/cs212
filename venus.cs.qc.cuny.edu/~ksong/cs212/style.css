@@ -1,0 +1,165 @@
+body {
+  background-color: #F5F5F5;
+  margin: auto;
+  width: 85%;
+}
+
+a {
+  color: #708090;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+a:hover {
+  color: #0abab5;
+}
+
+ol {
+  margin: 0;
+}
+
+/* Navigation */
+
+.nav {
+  margin: auto;
+  text-align: center;
+}
+
+.nav a {  
+  color: #2F4F4F;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav a:hover {
+  border-style: solid;
+  border-color: #0abab5;
+  color: #0abab5;
+  border-width: 0px 0px 2px 0px;
+  padding: 0px 0px 7px 0px;
+}
+
+.nav ul {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #C0C0C0;
+  margin: 15px 0px;
+  padding: 10px 0px;
+}
+
+.nav li {
+  display: inline-block;
+  font-weight: 100;
+  padding: 10px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*Inner content */
+
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.container img {
+  max-width: 80%;
+
+}
+
+h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 100;
+  color: #47040a;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.info h3 {
+  padding: 20px 0 0 0 ;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2F4F4F;
+}
+
+.tutorial h3 {
+  color: #2F4F4F;
+  font-size: 32px;
+  margin: 40px 0 0 0;
+}
+
+.info {
+  text-align: center;
+  padding: 0 0 25px 0;
+}
+
+.ql {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #C0C0C0;
+  padding: 0;
+  margin: 0;
+}
+
+.ql a {
+  color: #2F4F4F;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ql a:hover {
+  color: #0abab5;
+}
+
+.ql ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.ql li {
+  border-style: solid;
+  border-width: 0px 0px 0px 2px;
+  border-color: #0abab5;
+  display: inline-block;
+    padding: 0px 14px 0px 7px;
+}
+
+/* Table */
+
+table {
+  margin: auto;
+  overflow-y: scroll; 
+  position: static;
+  width: 100%;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #C0C0C0;
+  margin-bottom: 50px;
+}
+
+th {
+  background-color: slategrey;
+}
+
+tbody tr:nth-child(even) {
+  background: #e6e6e6;
+}
+
+tbody tr td:nth-child(1) {
+  text-align: center;
+}
+
+.tutorial tbody tr td:nth-child(1) {
+    width: 50px;
+}
+
+.schedule tbody tr {
+    font-size: 14px;
+}
+
+

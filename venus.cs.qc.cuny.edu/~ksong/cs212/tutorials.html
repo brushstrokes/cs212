@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CS212 Lab | Queens College</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+                <style>
+                    body {
+                        font-family: 'Oxygen', serif;
+                    }
+                </style>
+        </head>
+  
+	<body class = "cs212">
+
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index.html">Course Info</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="grading.html">Homework/Projects</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+            </ul>
+        </div>
+
+
+		<div class="container">
+		<div class="tutorial">
+
+         
+		<div id="content"><h4>Contents</h4>
+		<ol>
+            <li><a href="#JDK">Installing the Java Development Kit</a></li>
+            <li><a href="#Sans-IDE">Compiling without an IDE (on Windows)</a></li>
+            <li><a href="#Sans-IDE-Mac">Compiling without an IDE (on Mac)</a></li>
+			<li><a href="#Eclipse">Working with Eclipse</a></li>
+		</ol>
+		</div>
+
+        <section id="Sans-IDE"><h3>Installing the Java Development Kit</h3>
+        <p>To compile and run Java programs, you must have the Java Development Kit (JDK).
+        <table>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><p>Head to Oracle's Website: <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Link</a>. Click on the Download button for JDK 9.</p>
+                        <img src="JDK/1.JPG">
+                        </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><p>Click on the circle to Accept License Agreement and select the appropriate Download for your system.</p>
+                        <img src="JDK/2.JPG">
+                        </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><p>Once the download is complete, run the installer. If you plan on using Java without an IDE (via command line/Terminal), remember the installation path. If you plan on using Java with Eclipse, ignore this step.</p>
+                        <img src="JDK/3.JPG">
+                        </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><p>Complete the installation.</p></td>
+                </tr>
+            </tbody>
+        </table>
+
+		<section id="Sans-IDE"><h3>Compiling without an IDE (on Windows)</h3>
+        <p><i>This procedure is not required to run a Java program. It is recommended for those who wish to know the bare bones of Java, learn how to use the command line, and/or have a computer that struggles to run Eclipse.</i></p>
+        <p>The JDK must be installed before proceeding. Steps 1-4 need to be done ONLY ONCE. </p>
+        
+		<table>
+            <tbody>
+		  		<tr>
+		      	<td>1</td>
+		      	<td>
+                    <p>After creating a .java file using a text editor of your choice (Notepad/<a href="https://notepad-plus-plus.org">Notepad++</a>/<a href="https://www.sublimetext.com">Sublime</a>//etc...), click on the search bar and type in "env" to search for "Edit the system environment variables" (if it does not show up, try typing in "environment").</p>
+                    <img src="SansIDE/3.JPG">
+		      	</td>
+		      </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <p>Click on the button labeled "Environment Variables..."</p>
+                        <img src="SansIDE/4.JPG">
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <p>Under System variables, click on "Path" to highlight it and click the Edit button.</p>
+                    <img src="SansIDE/5.JPG">
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>
+                    <p>Click on the "New" button and enter the JDK path mentioned in step 3 of the previous table, followed by inserting a "\bin" at the end. Note that your JDK version may not match mine. Click OK once you're done.</p>
+                    <img src="SansIDE/6.JPG">
+                </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>
+                    <p>To access the command line, type in "cmd" in the search bar. Use the "cd" command to move to the folder that contains your Java file. The "javac" command compiles your code into bytecode class files. The "java" command runs the class files.</p>
+                    <img src="SansIDE/7.JPG">
+                </td>
+            </tr>
+
+		  </tbody>
+		</table>
+
+		</section>
+
+
+        <section id="Sans-IDE-Mac"><h3>Compiling without an IDE (on Mac)</h3>
+            <p>Open Terminal. You can directly open a UNIX text editor of your choice (such as vi, pico, emacs, ... ) or use the "cd" command to move to the folder that contains your Java file. The "javac" command compiles your code into bytecode class files. The "java" command runs the class files.</p>
+
+		<section id="Eclipse"><h3>Working with Eclipse</h3>
+            <p>Download Eclipse <a href="http://www.eclipse.org/downloads/eclipse-packages/">here</a>. Click on <b>Eclipse IDE for Java Developers</b>, and select the appropriate version for your computer.</p>
+
+            <center><video width="800" controls>
+                <source src="eclipse.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video></center>
+            
+		<table>
+            
+            <thead>
+                <th colspan="2">Instructions</th>
+            </thead>
+
+		  <tbody>
+    
+              <tr>
+                    <td>1</td>
+                    <td>
+                        <p>Select a location to place your Eclipse projects.</p>
+                        <img src="JDK/4.JPG">
+                    </td>
+		      </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <p><b>Steps 2-7 can be followed with the video above.</b></p>
+                        <p>Close the Welcome window.</p>
+                    </td>
+                </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <p>To create a new Java project:</p>
+                    <ol>
+                        <li>Right-click on an empty space in Project Explorer.</li>
+                        <li>Hover over New -> click on Java Project.</li>
+                        <li>Enter a name for your Project.</li>
+                        <li>Click Finish.</li>
+                    </ol>
+                </td>
+            </tr>
+
+		      <tr>
+		      	<td>4</td>
+		      	<td>
+                    <p>To create a package:</p>
+                    <ol>
+                        <li>Double-click the Project folder.</li>
+                        <li>Right-click the "src" folder and select New -> Package.</li>
+                        <li>Name the package and click Finish.</li>
+                    </ol>
+		      	</td>
+		      </tr>
+
+		      <tr>
+		      	<td>5</td>
+		      	<td>
+                    <p>To create a Java file:</p>
+                    <ol>
+                        <li>Right-click on the package and select New -> Class.</li>
+                        <li>Name the class and click Finish.</li>
+                    </ol>
+		      	</td>
+		      </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <p>To run a Java file:</p>
+                        <ol>
+                            <li>Click on the Green circle with the white triangle.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        <p>When submitting your files, use the Export feature:</p>
+                        <ol>
+                            <li>Right-click on the Project folder and select "Export".</li>
+                            <li>Double-click on the "General" folder and select "Archive file", click Next.</li>
+                            <li>Make sure .classpath and .project are checked.</li>
+                            <li>Click on Browse and select a location to place your ZIP file. Name the file:
+                            <br><b>Lab#_LastnameFirstname</b> (For Lab 0, it would be: Lab0_LastnameFirstname)</li>
+                            <li>Click Finish.</li>
+                        </ol>
+                    </td>
+                </tr>
+		  </tbody>
+		</table>
+
+		</section>
+
+		</div>
+		</div>
+
+	</body>
+  
+</html>
